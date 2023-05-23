@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>DBZ Practice Quiz</title>
+    <link rel="stylesheet" href="style3.css" />
+  </head>
+
+  <body>
+    <div class="column light-grey">
+      <div class="box center-content hover dark-grey" >
+        <p><a href="home.html">Homepage</a></p>
+      </div>
+      <div class="box center-content hover light-grey">
+        <p style="color: white;">
+          <a href="index.html">Imperial Leadership</a>
+        </p>
+      </div>
+      <div class="box center-content hover dark-grey">
+        <p>Roles</p>
+      </div>
+    </div>
+
+    <div class="column2 center-content dark-grey">
+      <div class="row light-grey">
+        <div class="box3 black" id="area">
+          <div
+            class="cube hover2" 
+            onclick="flyForward()"
+            id="fly"
+          >
+            <img src="images/tie_transparent.png" id="icon" />
+          </div>
+        </div>
+        <div class="box4 center-content light-grey" >
+        <img src="images/Pilot.jpg" id="role-change" />
+      </div>
+    </div>
+    <div class="row2 blue">
+      <div class="box2 center-content hover silver" id="pilot" onclick="changeRole2()">
+        <h1>Imperial Pilot</h1>
+      </div>
+      <div class="box2 center-content hover red" id="storm" onclick="changeRole()">
+        <h1>Stormtrooper</h1>
+      </div>
+      <div class="box2 center-content hover white" id="scout" onclick="changeRole3()">
+        <h1>Scout Trooper</h1>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
